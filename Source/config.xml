@@ -1,0 +1,28 @@
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.greenvortexstudios.stappClock" version="2">
+  <name>stappWatch</name>
+  <description>Stappwatch.</description>
+  <author href="zefir.cu.ma" email="Admin@zefir.cu.ma">Green Vortex Studios</author>
+  <content src="index.html"/>
+  <preference name="permissions" value="none"/>
+  <preference name="orientation" value="horizontal"/>
+  <preference name="target-device" value="android"/>
+  <preference name="fullscreen" value="true"/>
+  <preference name="webviewbounce" value="true"/>
+  <preference name="detect-data-types" value="true"/>
+  <preference name="exit-on-suspend" value="true"/>
+  <preference name="android-minSdkVersion" value="24"/>
+  <preference name="android-targetSdkVersion" value="26"/>
+  <preference name="android-installLocation" value="auto"/>
+  <icon src="Icon.png"/>
+  <access origin="*"/>
+  <plugin name="cordova-plugin-whitelist" version="1"/>
+  <allow-intent href="http://*/*"/>
+  <allow-intent href="https://*/*"/>
+  <allow-intent href="tel:*"/>
+  <allow-intent href="sms:*"/>
+  <allow-intent href="mailto:*"/>
+  <allow-intent href="geo:*"/>
+  <platform name="android">
+    <allow-intent href="market:*"/>
+  </platform>
+</widget>
